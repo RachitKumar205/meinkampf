@@ -6,5 +6,6 @@ function displayQuote() {
 
 function btnMinecraft() {
   var sound = document.getElementById("btnAudioClick");
+  window.location.href = './selectworld.html';
   sound.play();
 }
